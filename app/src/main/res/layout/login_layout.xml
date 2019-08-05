@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:background="#FF673AB7">
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/forever2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Usúario:"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borda_edit"
+            android:drawableRight="@drawable/ic_person_dp"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Senha:"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda_edit"
+            android:drawableRight="@drawable/ic_lock_dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entrar"
+                android:background="@drawable/borda_botao"
+                android:textAllCaps="true"
+                android:textColor="#FF673AB7"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sair"
+                android:background="@drawable/borda_botao"
+                android:textAllCaps="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FF673AB7"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="205dp"
+            android:layout_marginTop="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/borda_botao"
+            android:text="Não Sou Cadastrado!"
+            android:textAllCaps="true"
+            android:textColor="#FF673AB7"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
